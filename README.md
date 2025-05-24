@@ -1,4 +1,4 @@
-# Tattoo Studio API
+# Dövme Randevu Sistemi
 
 Modern bir dövme stüdyosu için RESTful API.
 
@@ -27,8 +27,8 @@ Modern bir dövme stüdyosu için RESTful API.
 
 1. Repoyu klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/tattoo-site.git
-cd tattoo-site
+git clone https://github.com/dovme-randevu/dovme-randevu-sistemi.git
+cd dovme-randevu-sistemi
 ```
 
 2. Bağımlılıkları yükleyin:
@@ -89,4 +89,4 @@ npm start
 
 ## Lisans
 
-MIT 
+MIT

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - Dövme Randevu Sistemi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .gallery-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .gallery-item-info {
+            padding: 1rem;
+        }
+
+        .gallery-item-info h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .gallery-item-info p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Dövme Stüdyo</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="randevu.html">Randevu Al</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x300" alt="Dövme Örneği 1">
+                <div class="gallery-item-info">
+                    <h3>Geometrik Desen</h3>
+                    <p>Modern geometrik tasarım</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x300" alt="Dövme Örneği 2">
+                <div class="gallery-item-info">
+                    <h3>Minimalist Çizim</h3>
+                    <p>Basit ve şık tasarım</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x300" alt="Dövme Örneği 3">
+                <div class="gallery-item-info">
+                    <h3>Realistik Portre</h3>
+                    <p>Detaylı gerçekçi çalışma</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x300" alt="Dövme Örneği 4">
+                <div class="gallery-item-info">
+                    <h3>Geleneksel Desen</h3>
+                    <p>Klasik dövme tasarımı</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dövme Stüdyo. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html> 

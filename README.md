@@ -142,7 +142,7 @@ EMAIL_PASS=your-email-password
 
 * @aydindogan23 (AYDIN DOĞAN)
 * @L3x4-4 (Furkan Tarhan)
-* @aydindogan24
+* @ahmetefegücek
 * @sahverdeger
 
 ## 📄 Lisans
